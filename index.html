@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Kho Làng Hay Day – Shop vật phẩm</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: blob:; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';">
+
+    <title>Kho Làng Hay Day – Shop vật phẩm game</title>
+    <meta name="description" content="Kho Làng Hay Day – Shop chuyên cung cấp vật phẩm, nông sản, công cụ và vật liệu nâng cấp trong game Hay Day uy tín, tiện lợi và nhanh chóng.">
+    <meta name="keywords" content="Hay Day, shop Hay Day, vat pham hay day, nang cap kho hay day, kho lang hay day">
+    <meta name="author" content="Kho Làng Hay Day">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://shophayday.store/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shophayday.store/">
+    <meta property="og:title" content="Kho Làng Hay Day – Shop vật phẩm game">
+    <meta property="og:description" content="Kho Làng Hay Day – Shop chuyên cung cấp vật phẩm, nông sản, công cụ và vật liệu nâng cấp trong game Hay Day uy tín, tiện lợi và nhanh chóng.">
+    <meta property="og:site_name" content="Kho Làng Hay Day">
+    <meta property="og:locale" content="vi_VN">
+    <meta property="og:image" content="https://shophayday.store/assets/og-image.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://shophayday.store/">
+    <meta name="twitter:title" content="Kho Làng Hay Day – Shop vật phẩm game">
+    <meta name="twitter:description" content="Kho Làng Hay Day – Shop chuyên cung cấp vật phẩm, nông sản, công cụ và vật liệu nâng cấp trong game Hay Day uy tín, tiện lợi và nhanh chóng.">
+    <meta name="twitter:image" content="https://shophayday.store/assets/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌾</text></svg>">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header class="top"><div class="top-in" id="hdr"></div></header>
-<main class="wrap" id="app"></main>
-<div id="layer"></div>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="app.js"></script>
+    <noscript>
+        <div class="noscript-message">
+            <p>Trình duyệt của bạn đang tắt JavaScript. Vui lòng bật JavaScript để sử dụng đầy đủ các tính năng tại Kho Làng Hay Day.</p>
+        </div>
+    </noscript>
+
+    <header id="header" class="site-header" role="banner"></header>
+
+    <main id="app" class="site-main" role="main"></main>
+
+    <div id="modal-root" class="modal-root" aria-live="polite"></div>
+
+    <div id="toast-root" class="toast-root" aria-live="polite" aria-atomic="true"></div>
+
+    <footer id="footer" class="site-footer" role="contentinfo">
+        <p>&copy; 2026 Kho Làng Hay Day. Tất cả quyền được bảo lưu.</p>
+    </footer>
+
+    <!-- Application Script -->
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>
